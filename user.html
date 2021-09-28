@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego de naves, planetas y administración de recursos planetarios | JNPARP</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="master.css" />
+    <!-- Web Icon -->
+    <link rel="icon" href="img/earth.png" type="image/x-icon" />
+    <!--  -->
+    <script src="https://kit.fontawesome.com/f0e4ad5691.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a class="active" href="main.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#news"><i class="fas fa-bacteria"></i>Civilization</a></li>
+        <li><a href="#contact"><i class="fas fa-globe-europe"></i>Planets</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+        <li class="right"><a href="#usuario"><i class="fas fa-user-astronaut"></i>Profile</a></li>
+      </ul>
+    </nav>
+    <!-- End navbar -->
+    <!-- Contenido 1 -->
+    <section>
+      <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend>Login</legend>
+          <label for="nombre"><strong>Username</strong></label>
+          <input type="text" name="nombre" placeholder="xXxjuan_2000xXx">
+          <label for="pass"><strong>Password</strong></label>
+          <details>
+            <summary>Forgot the password?</summary>
+            <a href="#recover">Reset the password</a>
+          </details>
+          <input type="password" name="pass" placeholder="password" title="8 to 16 characters" pattern=".{8,16}">
+          <label for="server"><strong>Server</strong></label>
+          <select name="server">
+            <option value="francia">France</option>
+            <option value="españa" selected>Spain</option>
+            <option value="portugal">Portugal</option>
+          </select>
+          <input type="submit" name="enviar" value="Login">
+        </fieldset>
+      </form>
+    </section>
+  </body>
+  <footer>
+    <small>Creado por <a href="https://www.youtube.com/watch?v=ezUoiaoQCTs">Brendan</a></small>
+  </footer>
+</html>
